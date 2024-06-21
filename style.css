@@ -1,0 +1,45 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#count {
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#buttons {
+    margin: 10px auto;
+    width: 350px;
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    user-select: none;           
+    -webkit-user-select: none;   
+    -moz-user-select: none;      
+    -ms-user-select: none;
+}
+
+.disabled {
+    color: #777;
+    border-color: #777;
+    cursor: auto;
+}
